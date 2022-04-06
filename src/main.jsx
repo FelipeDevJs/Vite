@@ -1,11 +1,25 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
+import {render} from 'react-dom'
 import './index.css'
-import App from './App'
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from 'react-router-dom'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+import App from './App'
+import Register from './pages/Register'
+import Delete from './pages/Delete'
+import Update from './pages/Update'
+
+render(
+  <BrowserRouter>
+    <Routes>
+      <Route path='/' element={<App />} />
+      <Route path='/register' element={<Register />} />
+      <Route path='/update' element={<Update />} />
+      <Route path='/delete' element={<Delete />} />
+    </Routes>
+  </BrowserRouter>,
   document.getElementById('root')
 )
