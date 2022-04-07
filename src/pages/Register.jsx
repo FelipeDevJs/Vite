@@ -4,7 +4,7 @@ import GetUser from '../Components/GetUsers'
 export default function Register(){
     return(
         <div className="App">
-            <h1>Cadatre um Usuario</h1>
+            <h1>Cadastre um Usuario</h1>
             <Link className='link' to="/">Home</Link>
             <main className='formbox'>
                 <form action="https://gitmongo.herokuapp.com/register" method='post' className="form">
