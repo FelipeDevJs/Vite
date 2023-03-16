@@ -7,7 +7,7 @@ export default function Register(){
             <h1>Cadatre um Usuario</h1>
             <Link className='link' to="/">Home</Link>
             <main className='formbox'>
-                <form action="https://gitmongo.herokuapp.com/register" method='post' className="form">
+                <form action="https://crud-mongo-axdzfy6gr-felipe-gmailcom.vercel.app/register" method='post' className="form">
                     <input type="text" name="name" placeholder='Nome' />
                     <input type="password" name='pwd' placeholder='Senha' />
                     <button>Cadastrar</button>
