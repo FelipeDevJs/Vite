@@ -7,7 +7,7 @@ export default function GetUser(){
     const [users, setUsers] = useState([])
 
     useEffect(()=>{
-        fetch('https://gitmongo.herokuapp.com/all')
+        fetch('https://crud-mongo-axdzfy6gr-felipe-gmailcom.vercel.app/all')
             .then((res)=> res.json())
             .then(data => setUsers(data))
             // console.log(users)
