@@ -7,7 +7,7 @@ export default function GetUser(){
     const [users, setUsers] = useState([])
 
     useEffect(()=>{
-        fetch('https://crud-mongo-axdzfy6gr-felipe-gmailcom.vercel.app/all')
+        fetch('https://crudmongo-2kgo.onrender.com/all')
             .then((res)=> res.json())
             .then(data => setUsers(data))
             // console.log(users)
