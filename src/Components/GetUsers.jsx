@@ -7,7 +7,7 @@ export default function GetUser(){
     const [users, setUsers] = useState([])
 
     useEffect(()=>{
-        fetch('https://crudmongo-2kgo.onrender.com/all')
+        fetch('https://crudmongo-2kgo.onrender.com/all', { mode: 'no-cors' })
             .then((res)=> res.json())
             .then(data => setUsers(data))
             // console.log(users)
