@@ -2,15 +2,20 @@
 Esse projeto é um frontEnd que utiliza a API CrudMongo. Foi desenvolvido utilizando Vitejs.
 
 <h2>Funcionalidades</h2>
-Listar usuarios
-Adicionar um novo usuarios
-Editar um usuarios existente
-Deletar um usuarios existente
+
+<ul>
+  <li>Listar usuarios</li>
+  <li>Adicionar um novo usuarios</li>
+  <li>Editar um usuarios existente</li>
+  <li>Deletar um usuarios existente</li>
+</ul>
+
+
 
 <h2>Como executar</h2>
 
 Clone o repositório em sua máquina local:
-git clone https://github.com/seu-usuario/seu-projeto.git
+git clone<code> https://github.com/seu-usuario/seu-projeto.git</code>
 
 <h2>Instale as dependências:</h2>
 
@@ -20,11 +25,13 @@ npm install
 
 npm run dev
 
-<h2>Acesse o endereço http://localhost:3000 no seu navegador para visualizar o projeto.</h2>
+<h2>Acesse o endereço <code>http://localhost:3000</code> no seu navegador para visualizar o projeto.</h2>
 
 <h2>Tecnologias utilizadas</h2>
-Vite
-JavaScript
+<ul>
+  <li>Vite</li>
+  <li>JavaScript</li>
+</ul>
 
 <h2>Como contribuir</h2>
 Se você quiser contribuir com esse projeto, por favor abra uma issue ou um pull request. Será um prazer trabalhar com você!
