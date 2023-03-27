@@ -8,7 +8,7 @@ export default function Delete(){
             <Link className='link' to="/">Home</Link>
             <main className='formbox'>
                 <form action="https://crudmongo-2kgo.onrender.com/delete" method='post' className="form">
-                    <input type="name" name="id" placeholder='ID do usuario' />
+                    <input type="name" name="id" placeholder='ID User' />
                     <button type='submit'>Deletar</button>
                 </form>
 

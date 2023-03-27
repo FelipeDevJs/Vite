@@ -9,9 +9,9 @@ export default function Register(){
             <main className='formbox'>
                 <form action="https://crudmongo-2kgo.onrender.com/register" method='post' className="form">
                     <input type="text" name="name" placeholder='Nome' />
-                    <input type="password" name="pwd" placeholder='Senha' />
-                    <input type="submit" value="Cadastrar" />
-                </form>
+                    <input type="password" name='pwd' placeholder='Senha' />
+                    <button>Cadastrar</button>
+                </form> 
             </main>
             <main className="user">
                 <GetUser />
